@@ -134,7 +134,7 @@ git tag v0.9 f52c633 给对应的commit打上tag
 git tag -a v0.1 -m "version 0.1 released" 1094adb 创建带有说明的标签，-a指定标签名，-m指定说明文字
 git show v0.1 可以看到说明文字
 
-git tag -d v0.1 删除标签
+git tag -d v0.1 删除tag v0.1
 git push origin v1.0 推送某个标签到远程
 git push origin --tags 一次性推送所有未推送到远程的本地标签
 git push origin :refs/tags/v0.9 删除远程标签
@@ -142,4 +142,4 @@ git push origin :refs/tags/v0.9 删除远程标签
 
 
 
-# 
+测试用
